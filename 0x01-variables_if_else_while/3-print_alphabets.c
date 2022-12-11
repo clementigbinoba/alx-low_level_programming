@@ -11,13 +11,14 @@ int main(void)
 {
 	char c, n;
 
-	c = 'a'
-	n = 'A'
+	c = 'a';
+	n = 'A';
 	putchar(c);
-	while (n <= 'A'){
-		putchar(n)
+	while (n <= 'A')
+	{
+		putchar(n);
 		n++;
 		}
-		putchar('/n')
+		putchar('\n');
 		return (0);
 }
