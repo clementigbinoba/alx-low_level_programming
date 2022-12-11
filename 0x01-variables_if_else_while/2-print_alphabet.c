@@ -14,10 +14,11 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'a') {
-			putcher(c);
+			putchar(c);
+
 		c++;
 		}
-	putcher("\n");
+	putchar("\n");
 	return (0);
 }
 
