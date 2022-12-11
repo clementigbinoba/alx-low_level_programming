@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
+*main - main function to gener
+    ate a random alphabelt
 *Return: Always 0 (success)
 *
 */
