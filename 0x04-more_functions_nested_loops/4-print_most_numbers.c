@@ -17,4 +17,3 @@ putchar(i);
 }
 putchar(10);
 }
-
