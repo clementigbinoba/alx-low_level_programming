@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - functions that draw line 
+ * print_line - functions that draws 
  * @c: input
  * Return: striaght 
  */
