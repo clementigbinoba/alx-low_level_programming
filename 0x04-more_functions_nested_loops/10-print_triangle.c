@@ -17,7 +17,7 @@ for (ro = 0; ro <= (size - 1); ro++)
 {
 for (sp = 0; sp < (size - 1) - ro; sp++)
 {
-_putchar('');
+_putchar(' ');
 }
 for (tr = 0; tr <= ro; tr++)
 {
