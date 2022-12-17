@@ -4,7 +4,7 @@
  * @c: input
  * Return: diagonal 
  */
-void print_diagonale(int n)
+void print_diagonal(int n)
 {
 int co, sp;
 
@@ -12,11 +12,12 @@ if (n <= 0)
 {
 _putchar('\n');
 }
+
 else
 {
 for (co = 1; co <= n; co++)
 {
-for (co = 1; sp < co; sp++)
+for (sp = 1; sp < co; sp++)
 {
 _putchar(' ');
 }
