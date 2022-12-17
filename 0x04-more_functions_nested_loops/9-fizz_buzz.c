@@ -1,7 +1,7 @@
 #include <stdlib.h>
-#include <stdio.h> 
+#include <stdio.h>
 /**
- * main - functions 
+ * main - print number from 1 to 100
  * @c: input
  * Return: 1 if c is digit, 0 otherwise
  */
