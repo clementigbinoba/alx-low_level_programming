@@ -36,9 +36,10 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
+
 	if (tens && r_index >= 0)
-								{
-									*(r + r_index) = (tens % 10) + '0';
+	{
+		*(r + r_index) = (tens % 10) + '0';
 									return (r + r_index);
 								}
 	else if (tens && r_index < 0)
@@ -58,6 +59,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int index, n1_len = 0, n2_len = 0;
+
 	for (index = 0; *(n1 + index); index++)
 		n1_len++;
 	for (index = 0; *(n2 + index); index++)
