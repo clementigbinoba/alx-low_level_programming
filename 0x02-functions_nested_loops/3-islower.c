@@ -1,18 +1,24 @@
 #include "main.h"
 
 /**
- * _islower - short discription, sinhle line
- * @c: contain value to be compared
- * Return: Always 0.
- */
+  * _islower - Entry point
+  * Description: Checks for lowercase character.
+  * @c: Contains value to be compared
+  * Return: Always 0 (Success)
+  * Author: IanoNjuguna
+  */
+
 int _islower(int c)
 {
-	if (c > 'a' && c < 'z')
+	/* ASCII value of lower case letters is between 97 & 122 */
+	if (c >=  97 && c <= 122)
 	{
 		return (1);
 	}
+
 	else
 	{
 		return (0);
 	}
 }
+

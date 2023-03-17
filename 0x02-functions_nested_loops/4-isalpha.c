@@ -1,18 +1,32 @@
 #include "main.h"
 
 /**
- * _islower - Return 1 if c is a letter. lowercase or uppercase
- * @c: The int to print
- * Return: Always 0.
+ * _isalpha - Return 1 if @c is a letter, lowercase or uppercase
+ * Description: Checks for alphabetic characters
+ * @c: Contains value to be compared
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
  */
+
 int _isalpha(int c)
 {
-	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+	/* ASCII value of upper case letters is between 65 && 90 */
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
+
 	else
 	{
-		return (0);
+		/* ASCII value of lower case letters is between 97 && 122 */
+		if (c >= 97 && c <= 122)
+		{
+			return (1);
+		}
+
+		else
+		{
+			return (0);
+		}
 	}
 }

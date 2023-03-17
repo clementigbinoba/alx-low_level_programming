@@ -1,25 +1,34 @@
-include "main.h"
+#include "main.h"
 
 /**
-* print_sign - prints the sign of a number
-* @n: the int to check
-* -1 and prints - if n is less than zero
-*/
+ * print_sign - Function that prints the sign of a number
+ *
+ * @n: Contains value to be compared
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
+ */
+
 int print_sign(int n)
 {
-if (n > 0)
-{
-_putchar('+');
-return (1);
+	if (n > 0)
+	{
+		_putchar ('+');
+		return (1);
+	}
+
+	else if (n == 0)
+	{
+		_putchar ('0');
+		return (0);
+	}
+
+	else
+	{
+		_putchar ('-');
+		return (-1);
+	}
+
+	return (0);
 }
-else if (n == 0)
-{
-_putchar(48);
-return (0);
-}
-else if (n < 0)
-{
-_putchar('-');
-}
-return (-1);
-}
+
+

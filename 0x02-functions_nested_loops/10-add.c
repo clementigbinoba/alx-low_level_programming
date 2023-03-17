@@ -2,18 +2,16 @@
 #include <stdio.h>
 
 /**
-* add - adds two integers and returns the result
-*
-* @i: First integer value
-* @j: Second integer value
-* Return: Always 0 (Success)
-* Author: IanoNjuguna
-*/
+ * add - adds two integers and returns the result
+ *
+ * @i: First integer value
+ * @j: Second integer value
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
+ */
 
 int add(int i, int j)
 {
-int x = i + j;
-
-return (x);
+	return (i + j);
 }
 

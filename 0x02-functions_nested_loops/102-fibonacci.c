@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-* main - print first 50 fibonacci
-*
-* Return: 0 always.
-*/
+ * main - print first 50 fibonacci
+ *
+ * Return: 0 always.
+ */
 int main(void)
 {
 long int i, x = 1, y = 2, sum = 0;
@@ -18,4 +18,3 @@ printf("%ld\n", x);
 }
 return (0);
 }
-

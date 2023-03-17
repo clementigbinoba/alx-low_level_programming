@@ -1,16 +1,21 @@
 #include "main.h"
 
 /**
- * _putchar.c - writes the character to c stdout
- * print_alphabet - print all alphabet in lowercase
+ * print_alphabet - Entry point
+ * Description: print alphabet lowercase
+ * Return: Void
+ * Author: IanoNjuguna
  */
+
 void print_alphabet(void)
 {
-	char letter;
+char alphabet;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+	_putchar(alphabet);
+}
 
-	_putchar('\n');
+_putchar('\n');
 
 }
