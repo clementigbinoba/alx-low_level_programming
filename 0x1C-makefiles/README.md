@@ -1,6 +1,6 @@
 # C - Makefiles
 
-In this project, I practiced writing Makefiles.
+This project aim at writing Makefiles.
 
 ## Tests :heavy_check_mark:
 
@@ -9,7 +9,7 @@ In this project, I practiced writing Makefiles.
 ## Helper Files :raised_hands:
 
 * [school.c](./school.c): C function that displays a seahorse in text.
-Used for Makefile practice purposes throughout project.
+Used for Makefile practice .
 
 * [main.c](./main.c): Main C function that runs the function defined in
 [school.c](./school.c).
